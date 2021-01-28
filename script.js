@@ -207,7 +207,7 @@ projects.forEach((project) => {
         <div class="content">
             <h4>${formateProjectName(project.name)}</h4>
             <a
-                href="/projects/${project.name}"
+                href="projects/${project.name}"
                 target="_blank"
                 class="btn btn-primary"
                 >Live Demo</a
