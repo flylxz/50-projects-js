@@ -202,7 +202,7 @@ projects.forEach((project) => {
 
   projectEl.innerHTML = `       
         <img 
-            src="../img/projects-img/${project.imgLink}" 
+            src="img/projects-img/${project.imgLink}" 
             alt="${project.name}" />
         <div class="content">
             <h4>${formateProjectName(project.name)}</h4>
