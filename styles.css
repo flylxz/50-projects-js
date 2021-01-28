@@ -74,7 +74,7 @@ h2 {
   height: 600px;
   font-family: 'Alata', sans-serif;
   position: relative;
-  background: url('../img/showcase-bg.png') no-repeat center center;
+  background: url('img/showcase-bg.png') no-repeat center center;
   z-index: 2;
 }
 .showcase .container {
@@ -324,20 +324,21 @@ h2 {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .main-footer .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 500px) {
   .projects {
     grid-template-columns: 1fr;
   }
 
-  .main-footer ul {
-    display: none;
-  }
-
-  .about-a {
+  .about {
     grid-template-columns: 1fr;
   }
-  .about-a .repo {
+  .about .repo {
     height: 100px;
   }
 }
